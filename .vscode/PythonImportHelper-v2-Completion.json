@@ -1,0 +1,29 @@
+[
+    {
+        "label": "imageio.v3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "imageio.v3",
+        "description": "imageio.v3",
+        "detail": "imageio.v3",
+        "documentation": {}
+    },
+    {
+        "label": "filenames",
+        "kind": 5,
+        "importPath": "create_gif",
+        "description": "create_gif",
+        "peekOfCode": "filenames = ['X-wing1.jpg', 'X-wing2.jpg']\nimages = []\nfor filename in filenames:\n    images.append(iio.imread(filename))\niio.imwrite('I_love_X-wings.gif', images, duration = 500, loop = 0)",
+        "detail": "create_gif",
+        "documentation": {}
+    },
+    {
+        "label": "images",
+        "kind": 5,
+        "importPath": "create_gif",
+        "description": "create_gif",
+        "peekOfCode": "images = []\nfor filename in filenames:\n    images.append(iio.imread(filename))\niio.imwrite('I_love_X-wings.gif', images, duration = 500, loop = 0)",
+        "detail": "create_gif",
+        "documentation": {}
+    }
+]
